@@ -1,6 +1,6 @@
 # Windy `ver. 3.0`
 
-Blog with CMS build with CodeIgniter 2.2.5 (ver. 2)
+Aplikacja do zarzadzania platnosciami po terminie
 
 *Requires [CodeIgniter](http://www.codeigniter.com/)*
 
