@@ -4,20 +4,13 @@ Aplikacja do zarzadzania platnosciami po terminie
 
 *Requires [CodeIgniter](http://www.codeigniter.com/)*
 
-**1. Powiazanie serwera WWW z GitHub'em**
+**1. Powiazanie localhost'a z GitHub'em**
 
 * Tworzysz nowe repo;
-* W terminalu laczysz utworzone wczesniej repo z serwerem WWW:
+* W terminalu laczysz utworzone wczesniej repo z localhostem:
 
 ```
-  $ git init
-  $ git remote add origin https://github.com/daru79/CI_pattern.git
-```
-
-* Za pomoca FTP przegrywasz pliki na serwer WWW
-* Przegrane pliki dodajesz do powiazanego repo z pkt. 2:
-
-```
+  $ git clone https://github.com/daru79/windy3.git
   $ git add -A
   $ git commit -m "tekst komentarza"
   $ git push -u origin master
