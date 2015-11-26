@@ -5,20 +5,21 @@
         <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <title>Bootstrap Admin</title>
+        <title><?php print $meta_title; ?></title>
         
         <meta name="robots" content="noindex, nofollow">
         <meta name="description" content="">
         
-        <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="stylesheets/theme.css">
-        <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="<?php print base_url('assets/lib/bootstrap/css/bootstrap.min.css'); ?>">
+        <link rel="stylesheet" type="text/css" href="<?php print base_url('assets/css/theme.css'); ?>">
+        <link rel="stylesheet" type="text/css" href="<?php print base_url('assets/css/elements.css'); ?>">
+        <link rel="stylesheet" type="text/css" href="<?php print base_url('assets/lib/font-awesome/css/font-awesome.css'); ?>">
 
-        <script src="lib/jquery-1.7.2.min.js" type="text/javascript"></script>
+        <script src="<?php print base_url('assets/lib/jquery-1.7.2.min.js'); ?>"></script>
 
         <!-- Demo page code -->
 
-        <style type="text/css">
+        <style>
             #line-chart {
                 height:300px;
                 width:800px;

@@ -5,9 +5,9 @@ class MY_Model extends CI_Model {
     protected $_primary_key = '';
     protected $_primary_filter = 'intval'; // Filtr dla klucza głównego, aby rzutować go na liczbę całkowitą
     protected $_order_by = '';
-    public $rules = array(); // Reguły walidacji, składowa powinna być publiczna aby móc ją załadować w kontrolerze 
     protected $_timestamps = FALSE;
-    
+    public $rules = array(); // Reguły walidacji, składowa powinna być publiczna aby móc ją załadować w kontrolerze 
+        
     public function __construct() {
         parent::__construct();
         
