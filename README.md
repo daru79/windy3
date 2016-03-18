@@ -38,6 +38,7 @@
 **rm waterboy.txt		**		-> usuwa dany plik
 
 **rm -r slapstick		**		-> dzięki opcji '-r' można usunąć katalog
+**ln -s file.txt symlink.txt** -> utworzenie soft linku
 
 
 ### MANIPULACJA ###
