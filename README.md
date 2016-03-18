@@ -1,5 +1,6 @@
 ### NAWIGACJA ###
 **ls** 					-> wylistowanie plików i katalogów
+
 **ls -a**					-> opcja ta pokazuje te ukryte
 ls -l					-> opcja ta pokazuje wszystkie szczegóły
 ls -t					-> opcja ta porządkuje pliki i katalogi wg. czasu modyfikacji
