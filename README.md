@@ -5,11 +5,11 @@
 
 **ls -l**					-> opcja ta pokazuje wszystkie szczegóły
 
-ls -t					-> opcja ta porządkuje pliki i katalogi wg. czasu modyfikacji
+**ls -t		**			-> opcja ta porządkuje pliki i katalogi wg. czasu modyfikacji
 
-ls -alt					-> użycie ww. opcji jako jedna opcja
+**ls -alt	**				-> użycie ww. opcji jako jedna opcja
 
-pwd 					-> (print working directory) wyświetlenie aktualnej ścieżki
+**pwd **					-> (print working directory) wyświetlenie aktualnej ścieżki
 
 cd [nazwa_katalogu]			-> (change directory) zmiana katalogu
 
