@@ -39,7 +39,7 @@
 
 **rm -r slapstick		**		-> dzięki opcji '-r' można usunąć katalog
 
-**ln -s file.txt symlink.txt** -> utworzenie soft linku (nie podaza za plikiem)
+**ln -s file.txt symlink.txt** -> utworzenie symbolicznego (soft) linku (nie podaza za plikiem)
 
 **ln file.txt hardlink.txt** -> utworzenie hard linku (podaza za plikiem)
 
